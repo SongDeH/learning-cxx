@@ -7,7 +7,7 @@ void func(int);
 
 // TODO: 为下列 ASSERT 填写正确的值
 int main(int argc, char **argv) {
- auto arg = 99;
+    auto arg = 99;
     ASSERT(arg == 99, "arg should be 99");
     std::cout << "befor func call: " << arg << std::endl;
     func(arg);
